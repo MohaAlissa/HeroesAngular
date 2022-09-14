@@ -9,7 +9,7 @@ import { ProposalsComponent } from './proposals/proposals.component';
 import { ProfileRowComponent } from './profile-row/profile-row.component';
 import { FriendboxComponent } from './friendbox/friendbox.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 import { NotificationboxComponent } from './notificationbox/notificationbox.component';
 @NgModule({
   declarations: [
@@ -25,9 +25,9 @@ import { NotificationboxComponent } from './notificationbox/notificationbox.comp
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -3,10 +3,7 @@
   <app-notificationbox></app-notificationbox>
   <div class="container">
     <app-friendbox></app-friendbox>
-    <app-hero-card
-      *ngFor="let i of [0, 1, 2, 3]"
-      [img]="postImages[i]"
-      [text]=postText[i]>
+    <app-hero-card *ngFor="let i of [0, 1, 2, 3]" [img]="postImages[i]" [text]=postText[i]>
     </app-hero-card>
   </div>
   <app-proposals></app-proposals>

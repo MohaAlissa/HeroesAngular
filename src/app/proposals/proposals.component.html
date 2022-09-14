@@ -1,5 +1,7 @@
-<app-profile-row [canFollow]="false" ></app-profile-row>
+<app-profile-row [canFollow]="false"></app-profile-row>
 <div class="margin-bottom-16">
-<body> Heroes you may know  </body>
+
+    <body> Heroes you may know </body>
 </div>
-<app-profile-row class="img" *ngFor="let i of [1, 2, 3, 4, 5, 6] " [name] = "names[i]" [description] = "texts[i]" [img] = "images[i]"></app-profile-row>
+<app-profile-row class="img" *ngFor="let i of [1, 2, 3, 4, 5, 6] " [name]="names[i]" [description]="texts[i]"
+    [img]="images[i]"></app-profile-row>

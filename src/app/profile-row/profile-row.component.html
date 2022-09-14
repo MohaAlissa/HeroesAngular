@@ -5,5 +5,7 @@
     <b>{{name}}</b><br> <span class="description">{{description}}</span>
   </div>
 
-  <a *ngIf="canFollow" (click)="fs.addFriend(name, img); canFollow = false" ><mat-icon>add</mat-icon>  Add to your Friends </a>
+  <a *ngIf="canFollow" (click)="fs.addFriend(name, img); canFollow = false">
+    <mat-icon>add</mat-icon> Add to your Friends
+  </a>
 </div>
