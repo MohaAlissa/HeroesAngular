@@ -1,0 +1,49 @@
+.card {
+  min-height: 550px;
+  position: center;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    width: 80%;
+    padding-left: 40px;
+  }
+
+  p {
+    padding-left: 160px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+
+  }
+
+  button {
+    height: 32px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px rgba(0, 0, 0, 0.8);
+    border: unset;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    &:first-child {
+      left: 0;
+    }
+
+    &:last-child {
+      right: 0;
+    }
+    mat-icon {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

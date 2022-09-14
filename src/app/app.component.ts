@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-first-projekt';
+  title = 'My Project';
+  postText = [
+    'Dr. Hulk',
+    'Tornado',
+    'Magneta',
+    'Mr. Nice',
+    'Narco'
+    ];
+  postImages = [
+    'assets/img/Heroes/1.jpeg',
+    'assets/img/Heroes/2.jpeg',
+    'assets/img/Heroes/3.jpeg',
+    'assets/img/Heroes/4.jpeg',
+    'assets/img/Heroes/5.jpeg'
+  ];
+  buttonClicked(){
+    alert("Oh No");
+  }
 }
