@@ -11,6 +11,7 @@ import { FriendboxComponent } from './friendbox/friendbox.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { NotificationboxComponent } from './notificationbox/notificationbox.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { NotificationboxComponent } from './notificationbox/notificationbox.comp
     ProfileRowComponent,
     FriendboxComponent,
     NotificationboxComponent,
+    NotificationsComponent,
   ],
   imports: [
     BrowserModule,

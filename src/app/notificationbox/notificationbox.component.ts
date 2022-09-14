@@ -6,8 +6,6 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./notificationbox.component.scss']
 })
 export class NotificationboxComponent implements OnInit {
-
-  @Input() name = 'Dr. Hulk';
   @Input() img = '/assets/img/Heroes/1.jpeg';
   @Input() post ='Your Daily Runddown is online now';
   @Input() canFollow =true;
@@ -15,5 +13,4 @@ export class NotificationboxComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
