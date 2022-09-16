@@ -1,1 +1,7 @@
 <app-notificationbox></app-notificationbox>
+<div class="margin-bottom-16 standard-notification">
+
+    <body class="title"> Your Notification
+    </body>
+</div>
+<app-notificationbox *ngFor="let i of [0, 1, 2, 3, 4, 5]" [post]="posts[i]" [img]="postImages[i]"></app-notificationbox>
